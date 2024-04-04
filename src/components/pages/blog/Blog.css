@@ -1,0 +1,10 @@
+.blog img {
+    width: 100%;
+  }
+  .blog .box {
+    background-color: var(--primaryBackground);
+    border-radius: 10px;
+  }
+  .blog .text {
+    padding: 10px 30px;
+  }

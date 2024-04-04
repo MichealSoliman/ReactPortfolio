@@ -1,0 +1,47 @@
+ /*====================
+    *==== start header===*
+    ====================*/
+    header {
+        background-color: var(--headingColor);
+        height: 10vh;
+        line-height: 10vh;
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+      }
+      header a {
+        margin-left: 40px;
+      }
+      .toggle {
+        cursor: pointer;
+        color: var(--white);
+        display: none;
+      }
+      @media screen and (max-width: 768px) {
+        header .nav {
+          display: none;
+        }
+        header a {
+          width: 100%;
+          display: block;
+          color: var(--white);
+        }
+        .toggle {
+          display: block;
+          font-size: 25px;
+          background: none;
+        }
+        .hideMenu {
+          display: block;
+          position: absolute;
+          top: 10vh;
+          left: 0;
+          width: 100%;
+          background-color: var(--headingColor);
+        }
+      }
+         /*====================
+          *==== end header=====*
+          ====================*/

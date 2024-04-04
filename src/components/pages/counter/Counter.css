@@ -1,0 +1,19 @@
+.counter {
+    margin-top: 80px;
+    position: relative;
+  }
+  .hero.counter::after {
+    background-image: url("../../../../public/images/some-facts-bg.png");
+    height: 50vh;
+  }
+  .counter h1 {
+    margin: 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    .grid3{
+      
+      grid-template-columns: repeat(4, 1fr);
+      
+    }
+  }
